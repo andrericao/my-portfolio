@@ -1,0 +1,61 @@
+@import '../theme/variables';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: $corpadraofundo;
+  width: 100%;
+  min-height: 100%;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background-color: $corpadraoescura;
+  border-bottom: 2px solid $corpadraoamarela;
+}
+
+main { 
+  min-height: 80vh;
+  
+  @media (max-width: 768px) {
+    min-height: 90vh;
+    margin-bottom: 3vh;
+  }
+}
+
+section, header, footer, main {
+  max-width: 100%;
+}
+
+footer {
+  height: auto;
+  bottom: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  border: none;
+  text-decoration: none;    
+}
+
+ul {
+  padding: 0;
+}
+
+a { 
+  text-decoration: none;
+}
+
+hr {
+  margin: 0 10vw;
+}

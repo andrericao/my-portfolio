@@ -1,0 +1,257 @@
+.nav-custom {
+  padding: 1vh 5vw 1vh;
+}
+@media (max-width: 425px) {
+  .nav-custom {
+    padding: 0;
+  }
+}
+
+.navbar-brand {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 24px;
+}
+
+.nav-item a:hover {
+  border-radius: 5px;
+}
+
+.pesquisa input {
+  border-radius: 5px;
+}
+@media (max-width: 525px) {
+  .pesquisa input {
+    width: 100px;
+  }
+}
+@media (max-width: 350px) {
+  .pesquisa input {
+    width: 50px;
+  }
+}
+@media (max-width: 300px) {
+  .pesquisa input {
+    width: 15px;
+  }
+}
+
+.btn img {
+  height: 20px;
+}
+
+.paragrafo {
+  padding: 50px 150px;
+  text-align: start;
+}
+@media (max-width: 768px) {
+  .paragrafo {
+    padding: 30px 15px;
+  }
+}
+@media (max-width: 425px) {
+  .paragrafo {
+    padding: 20px 15px;
+  }
+}
+
+.h1 h2 {
+  margin: 3vh 0;
+}
+
+.banner {
+  margin-bottom: 5vh;
+}
+
+.card {
+  max-width: 350px;
+  border-radius: 15px;
+  overflow: hidden;
+  bottom: 5vh;
+  margin-top: 1vh;
+}
+@media (max-width: 768px) {
+  .card {
+    width: 95%;
+  }
+}
+
+.classe-area {
+  margin-bottom: 5vh;
+}
+
+.cursos {
+  gap: 2vw;
+  margin-bottom: 4vh;
+  position: relative;
+}
+
+.conteudo {
+  height: 250px;
+}
+.conteudo img:hover {
+  transform: scale(1.2);
+}
+
+.image {
+  transition: 0.7s;
+  width: 100%;
+  height: 250px;
+}
+
+.area {
+  position: absolute;
+  padding-left: 25px;
+  padding-top: 3vh;
+  top: 0vh;
+}
+
+.titulo-profissao {
+  position: absolute;
+  padding-left: 25px;
+  bottom: 0.5vh;
+}
+
+.formulario {
+  position: absolute;
+  width: 300px;
+  border-radius: 10px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+}
+.formulario .login {
+  display: flex;
+  justify-content: center;
+}
+.formulario .login input {
+  width: 250px;
+}
+
+.botao button {
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+}
+.botao a {
+  display: block;
+}
+
+.botao-nome input {
+  display: flex;
+  width: 115px;
+  margin: 0 10px;
+}
+
+.esqueci a {
+  display: block;
+}
+
+.voltar {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+
+.titulo {
+  padding-top: 30vh;
+}
+@media (max-width: 768px) {
+  .titulo {
+    padding: 2vh 1vw;
+  }
+}
+
+.comentario-div {
+  padding: 2.5vh;
+  left: 50%;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 40vw;
+}
+@media (max-width: 768px) {
+  .comentario-div {
+    display: block;
+    padding-top: 2vh;
+    margin: 0 auto;
+  }
+}
+
+.paragrafo2 {
+  margin-bottom: 7vh;
+}
+
+.carreira h1 {
+  padding: 5vh;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 3vh;
+  height: 100px;
+  margin-bottom: 0;
+}
+@media (max-width: 968px) {
+  .list {
+    display: block;
+    height: auto;
+    gap: 5vh;
+  }
+}
+
+.sub-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 2vw;
+  bottom: 5vh;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .sub-list {
+    gap: 7vw;
+  }
+}
+
+.dados .card-title {
+  border-radius: 5px;
+}
+
+.card-cubo {
+  border-radius: 15px;
+}
+@media (max-width: 768px) {
+  .card-cubo {
+    width: 95%;
+    margin: 5px 0;
+  }
+}
+.card-cubo label {
+  border-radius: 5px;
+  height: 22px;
+}
+@media (max-width: 768px) {
+  .card-cubo label {
+    width: 100%;
+  }
+}
+
+.cubo input {
+  border-radius: 7px;
+  height: 75px;
+}
+
+.display-mobile {
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 768px) {
+  .display-mobile {
+    display: block;
+  }
+}/*# sourceMappingURL=button.css.map */

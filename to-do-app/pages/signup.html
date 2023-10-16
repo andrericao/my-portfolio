@@ -1,0 +1,113 @@
+	<!DOCTYPE html>
+	<html lang="pt-br">
+
+	<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="../assets/check-mark.png" type="image/x-icon">
+	<title>To-Do List | Sign Up</title>
+
+	<!-- --------------------- animate.css ------------------------------------- -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+	<!-- ----------------------------- sweet alert ----------------------------- -->
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<!-- CDN example (unpkg) -->
+	<script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+	<!-- ---------------- estilos compartilhados entre login e signup ---------------- -->
+	<link rel="stylesheet" href="../styles/acess.css">
+
+	</head>
+
+	<body>
+	<p class="home-projects"><a href="../../my-portfolio/index.html">HOME PROJECTS</a></p>
+	<main>
+	<div class="left">
+		<img src="../assets/pessoa-signup.png" alt="">
+	</div>
+	<div class="right">
+		<form name="sign-up" id="sign-up">
+		<div class="form-header">
+			<p>To-Do List</p>
+		</div>
+
+	<div class="user-input">
+		<label>
+			Nome:
+		</label>
+			<input type="text" id="inputName" minlength="3" maxlength="20" name="name" required>
+		<small>* Insira no mínimo 3 caracteres</small>
+		</div>
+
+		<div class="user-input">
+		<label>
+		Sobrenome:
+		</label>
+		<input type="text" id="lastName" minlength="3" maxlength="50" name="last-name" required>
+		<small>* Insira no mínimo 3 caracteres</small>
+		</div>
+		
+		<div class="user-input">
+			<label>
+			Email:
+			</label>
+			<input type="email" id="email" name="email" minlength="6" maxlength="250" required>
+			<small>* Insira um e-mail válido</small>
+		</div>   
+		
+		<div class="user-input">
+
+		<label>
+			Senha:
+		
+		<div>
+			<input type="password" id="password" name="password" minlength="8" required>
+			<img 
+				class="eye-password-bt"
+				id="imgPasswordOne" 
+				src="../assets/eye.svg" 
+				alt="icone olho">
+		</div>
+		<small>* Sua senha precisa ter no mínimo 8 caracteres</small>
+		</div>
+	</label>
+		
+		<div class="user-input">
+
+			<label>
+			Repetir senha:
+			<div>
+			<input type="password" id="confirmPassword" name="confirm-pwd" minlength="8" required>
+			<img 
+				class="eye-password-bt"
+				id="imgPasswordTwo" 
+				src="../assets/eye.svg" 
+				alt="icone olho">
+			</div>
+		<small>* As senhas não correspondem</small>
+		</label>
+		</div>
+
+		<div id="response">
+		</div>
+		<button name="send" id="btnEnter"  disabled>Criar conta</button>
+		<!-- <button id="autoFillInputs">AUTO PREENCHER</button> -->
+		</form>
+
+		<div class="Enter">
+		<a href="../index.html">Já possui conta? Acesse aqui</a>
+		</div>
+	</div>
+	</main>
+
+	<!-- ---------------------- lógica aplicada no registro -------------------- -->
+	<!-- <script src="../scripts/utils.js" type="module"></script> -->
+	<script src="../scripts/signup.js" type="module"></script>
+
+	</body>
+
+	</html>

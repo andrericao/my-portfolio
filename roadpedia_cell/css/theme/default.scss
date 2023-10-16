@@ -1,0 +1,361 @@
+@import '../theme/variables';
+
+//HEADER
+
+.projetos {
+  background-color: $corpadraoamarela;
+
+  a {
+    color: $corpadraoescura;
+  }
+}
+
+.navbar-brand { 
+  color: $corpadraobranca;
+
+  &:hover {
+  color: $corpadraoamarela;
+  }
+}
+
+.nav-item a {
+  color: $corpadraoamarela;
+
+  &:hover {
+  background-color: $corpadraoamarela;
+  color: $corpadraoescura;
+  }
+}
+
+.pesquisa input {
+  border: 1px solid $corpadraoamarela;
+}
+
+.light-color a {
+  color: $corpadraoamarela;
+}
+
+#a {
+  color: $corpadraoamarela;
+
+  &:hover {
+  background-color: $corpadraoamarela;
+  color: $corpadraoescura;
+  }
+}
+
+.dropdown-menu .menu-dropdown {
+  color: $corpadraoamarela;
+}
+
+.btn-custom {
+  background-color: $corpadraoamarela;
+}
+
+// BANNER
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background-image: url(/roadpedia_cell/img/bg/bg-roadmap.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 2px solid $corpadraoamarela;
+
+  h1 {
+  color: $corpadraoescura;
+  }
+
+}
+
+.image-banner1 {
+  position: absolute;
+  left: 44vw;
+  bottom: 0;
+
+  img {
+  height: 80vh;
+  }
+}
+
+.image-banner2 {
+  position: absolute;
+  right: 45vw;
+  top: 53vh;
+
+  img {
+  height: 50vh;
+  }
+}
+
+.image-banner3 {
+  position: absolute;
+  right: 17vw;
+  bottom: 0;
+
+  img {
+  height: 30vh;
+  }
+}
+
+.image-banner4 {
+  position: absolute;
+  right: 76vw;
+  bottom: 0vh;
+
+ img {
+  height: 80vh;
+ }
+}
+
+
+.h1 h2 {
+  color: $corpadraoescura;
+}
+
+// ÁREAS DE CURSO - VARIADOS
+
+.conteudo {
+  background-image: linear-gradient(45deg, $corpadraoescura 30%, #565656 80%);
+}
+
+.classe-area {
+  color: $corpadraoescura;
+
+  &:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+    color: $corpadraoescura;
+  
+    &:hover {
+      color: $corpadraoamarela;
+    }
+  }
+}
+
+
+.area {
+  color: $corpadraoamarela;
+}
+
+.titulo-profissao{
+  color: $corpadraobranca;
+
+}
+
+.botao a {
+  color: $corpadraobranca;
+
+  &:hover {
+    color: $corpadraoescura;
+  }
+}
+
+// LOGIN E CADASTRO
+
+.esqueci a:hover {
+    color: $corpadraoamarela;
+}
+
+#ou {
+  color: $corpadraobranca;
+}
+
+.paragrafo2 a {
+
+  color: $corpadraoescura;
+
+  &:hover {
+    color: $corpadraoamarela;
+  }
+}
+
+.titulo-paragrafo a {
+  color: $corpadraoescura;
+
+  &:hover {
+    color: $corpadraoamarela;
+  }
+}
+
+.list {
+  border-top: 2px solid $corpadraoamarela;
+  background-color: $corpadraoescura;
+  color: $corpadraobranca;
+}
+
+.tipos-cursos {
+  background-image: linear-gradient(45deg, $corpadraoescura 30%, #565656 80%);
+  color: $corpadraobranca;
+  border: 2px solid $corpadraoamarela;
+}
+
+
+.card-title {
+  color: $corpadraoescura;
+  background-color: $corpadraoamarela;
+}
+
+.card-text {
+  color: $corpadraobranca;
+  
+  a {
+    color: $corpadraobranca;
+
+    &:hover{
+      color: $corpadraoamarela;
+    }
+  }
+}
+.card-input-date {
+  background-color: inherit;
+  color: $corpadraobranca;
+}
+
+.card-textplus {
+  a {
+  color: $corpadraoamarela;
+  }
+}
+
+.titulo-cubo {
+  color: $corpadraoescura;
+}
+
+.subtitulo-cubo {
+  color: $corpadraobranca;
+}
+
+.subtitulo-recomendacao {
+  color: $corpadraoescura;
+}
+
+.card-cubo {
+  background-image: linear-gradient(45deg, $corpadraoescura 40%, #565656 70%, $corpadraoescura 80%);
+  border: 2px solid $corpadraoamarela;
+  color: $corpadraobranca;
+}
+
+.card-cubo {
+  #obs {
+    color: $corpadraoamarela;
+  }
+
+  label {
+    background-color: $corpadraoamarela;
+    color: $corpadraoescura;
+  }
+}
+
+.link-prova a {
+  color: $corpadraobranca;
+
+  &:hover {
+    color: $corpadraoamarela;
+  }
+}
+
+.link-provabg {
+
+  a {
+    color: $corpadraoescura;
+
+    &:hover {
+      color: $corpadraoamarela;
+    }
+  }
+}
+
+.cubo input {
+  border: 2px solid $corpadraoamarela;
+}
+
+.formulario {
+  border: 1px solid $corpadraoamarela;
+  background-image: linear-gradient(45deg, $corpadraoescura 30%, #565656 80%);
+  color: $corpadraoamarela;
+}
+
+.botao button {
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+  text-decoration: none;
+  color: $corpadraobranca;
+  background-color: $corpadraoescura;
+}
+
+.interticio {
+  background-color: $corpadraoamarela;
+}
+
+.interticio-mobile {
+  background-color: $corpadraoamarela;
+}
+
+hr {
+  color: $corpadraoescura;
+}
+
+.recomendacoes a {
+  color: $corpadraoamarela;
+}
+
+.esqueci a {
+  color: $corpadraobranca;
+}
+
+.comentario-div {  
+  color: $corpadraobranca;
+  background-image: linear-gradient(75deg, $corpadraoescura 50%, #565656 70%);
+  border: 2px solid $corpadraoamarela;
+}
+
+.sub-list img {
+  height: 30px;  
+  flex-wrap: wrap;
+}
+
+
+.linha-tempo {
+
+  .avatar-study {
+    height: 75px;
+  }
+
+
+  .linedown {
+    width: 150px;
+    padding-top: 75px;
+  }
+
+  .arrow {
+    height: 75px;
+    margin: 3vh 0;
+  }
+
+  .interticio {
+    border-radius: 7px;
+    margin-top: 10px;
+  }
+}
+
+.interticio-mobile {
+  border-radius: 7px;
+  margin-top: 10px;
+  width: 65px;  
+  margin: 0 auto;
+}
+
+.avatar {
+  height: 60px;
+}
+
+.avatar-study {
+  height: 80px;
+}

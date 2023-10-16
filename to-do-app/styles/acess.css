@@ -1,0 +1,201 @@
+	@import url('./commom.css');
+
+main{
+	display: flex;
+}
+
+.home-projects {
+	display: block;
+	text-align: center;
+	padding: 3px 0;
+	background-color: var(--secondary);
+}
+
+	.home-projects a {
+	color: var(--app-grey);
+	}
+
+	h1 {
+	color: rgb(116, 116, 116);
+	font-weight: 300;
+	margin: .5em 0;
+}
+
+	form {
+	position: relative;
+	min-width: 320px;
+	max-width: 26em;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 2em auto;
+	box-shadow: 0 5px 5px lightgrey;
+	padding: 1em 2.5em;
+	box-sizing: border-box;
+	}
+
+	form:after {
+	position: absolute;
+	content: '';
+	width: .7em;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: linear-gradient(var(--primary), var(--secondary));
+	}
+
+	input {
+	width: 100%;
+	padding: .4em .5em;
+	background-color: var(--app-grey);
+	border: 1px solid var(--app-grey);
+	border-radius: .2em;
+	}
+
+	input:focus {
+	outline: none;
+	border: 1px solid lightgrey;
+	}
+
+	input:invalid {
+	border: 1px solid rgb(218, 88, 88);
+	}
+
+	label {
+	width: 100%;
+	font-weight: 300;
+	margin-bottom: -.1em;
+	margin-top: 1em;
+	font-size: .8em;
+	}
+
+	.user-input{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	gap: 3px;
+	}
+
+	/* aplicando css erros */
+
+	small{
+	display: none;
+	font-size: .8em;
+	font-weight: 300;
+	}
+
+	input:required {
+	border-color: transparent;
+	}
+
+	div.error label{
+	color: rgb(218, 88, 88);
+	}
+
+	div.error small{
+	color: rgb(218, 88, 88);
+	display: block;
+	}
+
+	div.error input {
+	border-color: rgb(218, 88, 88);
+	}
+
+	small.error {
+	color: rgb(218, 88, 88);
+	display: block;
+	
+	}
+
+	label div{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--app-grey);
+	border: 1px solid var(--app-grey);
+	width: 105%;
+	}
+
+	/* aplicando css erros */
+
+
+	button {
+	padding: .5em 3em;
+	background-color: var(--primary);
+	color: white;
+	margin-top: 2em;
+	font-weight: 400;
+	font-size: 1em;
+	}
+
+	button:disabled {
+	background-color: rgba(168, 188, 255, 0.5);
+	cursor: not-allowed;
+	}
+
+	.form-header {
+	color: grey;
+	font-size: 2em;
+	}
+
+	.login {
+	text-align: center;
+	}
+
+	.left {
+	width: 50%;
+	background-color: white;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+
+	.left img {
+	width: 60%;
+	}
+
+	.right {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	}
+
+	#response {
+	margin: .5rem 0 -1rem 0;
+	}
+
+	#response span.ok {
+	color:#4fffa7;
+	font-weight: 700;
+	}
+
+	#response span.err {
+	color:rgb(218, 88, 88);
+	font-weight: 700;
+	}
+
+	.eye-password-bt{
+	padding: 0 3%;
+	height: 20px;
+	cursor: pointer;
+	}
+
+@media screen and (max-width: 660px){
+	main{
+	flex-direction: column;
+	align-items: center;
+	}
+
+	.right, .left{
+	min-width: 320px;
+	}
+
+	a{
+	padding: 1em 0px;
+	}
+
+}

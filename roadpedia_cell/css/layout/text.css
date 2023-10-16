@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+.projetos {
+  text-decoration: none;
+  line-height: 16px;
+}
+.projetos a {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: bold;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.image-banner1 {
+  position: absolute;
+  left: 44vw;
+  bottom: 0;
+}
+
+.image-banner2 {
+  position: absolute;
+  right: 45vw;
+  top: 53vh;
+}
+
+.image-banner3 {
+  position: absolute;
+  right: 17vw;
+  bottom: 0;
+}
+
+.image-banner4 {
+  position: absolute;
+  right: 76vw;
+  bottom: 0vh;
+}
+
+.classe-area {
+  text-align: center;
+  display: block;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 80%;
+  text-decoration: none;
+}
+
+.area {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 30%;
+}
+.area a {
+  font-size: 14px;
+}
+
+.h1 h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3vh;
+}
+
+.titulo-profissao {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3vh;
+  text-shadow: 2px 2px #202020;
+}
+
+.formulario {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+#ou {
+  text-align: center;
+}
+
+.esqueci a {
+  font-size: 12px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.botao button {
+  text-decoration: none;
+}
+
+.titulo {
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  font-size: 84px;
+}
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 56px;
+  }
+}
+
+.subtitulo {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 45px;
+  text-align: center;
+}
+
+.comentario-div {
+  font-style: italic;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .comentario-div {
+    font-size: 10px;
+  }
+}
+.comentario-div h4 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.paragrafo {
+  font-family: "Nanum Gothic", sans-serif;
+  text-align: start;
+}
+.paragrafo a {
+  font-size: 14px;
+}
+
+.paragrafo2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 7vh;
+}
+.paragrafo2 a {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 14px;
+}
+
+.titulo-paragrafo {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 36px;
+}
+
+.carreira h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 60px;
+}
+
+@media (max-width: 968px) {
+  .list {
+    text-align: center;
+  }
+}
+
+.h1 {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 15px;
+}
+@media (max-width: 968px) {
+  .h1 {
+    text-align: center;
+    line-height: 5vh;
+  }
+}
+
+.card-header {
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  font-size: 28px;
+}
+
+.dados {
+  text-decoration: none;
+}
+.dados span {
+  font-size: 22px;
+}
+.dados .inscricoes {
+  text-align: center;
+}
+.dados .card-text {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.card-input-date {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.titulo-cubo {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 48px;
+}
+
+.subtitulo-cubo {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+.subtitulo-recomendacao {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+.card-cubo h1 {
+  font-family: "Bebas Neue", sans-serif;
+}
+.card-cubo p {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.tempo {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 48px;
+}
+
+.ambiente .text-ambiente {
+  line-height: 50px;
+}
+.ambiente .patente {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 22px;
+}
+
+@media (max-width: 768px) {
+  .display-mobile {
+    text-align: start;
+  }
+}/*# sourceMappingURL=text.css.map */

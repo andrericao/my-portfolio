@@ -1,0 +1,666 @@
+@charset "UTF-8";
+/*Estilo para página para cada carreira*/
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+section, header, footer, main {
+  max-width: 100%;
+}
+
+ul {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.projetos {
+  text-decoration: none;
+  background-color: #ffff7a;
+  line-height: 16px;
+}
+.projetos a {
+  font-family: "Bebas Neue", sans-serif;
+  color: #202020;
+  font-size: bold;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgba(128, 128, 128, 0.3764705882);
+  width: 100%;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background-color: #202020;
+  border-bottom: 2px solid #ffff7a;
+  margin-bottom: 2vh;
+}
+
+.nav-custom {
+  padding: 1vh 5vw 1vh;
+}
+@media (max-width: 425px) {
+  .nav-custom {
+    padding: 0;
+  }
+}
+
+.navbar-brand {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 24px;
+  color: #f3f3f3;
+}
+.navbar-brand:hover {
+  color: #ffff7a;
+}
+
+.nav-item a {
+  color: #ffff7a;
+}
+.nav-item a:hover {
+  background-color: #ffff7a;
+  color: #202020;
+  border-radius: 5px;
+}
+
+.pesquisa input {
+  border: 1px solid #ffff7a;
+  border-radius: 5px;
+}
+@media (max-width: 525px) {
+  .pesquisa input {
+    width: 100px;
+  }
+}
+@media (max-width: 350px) {
+  .pesquisa input {
+    width: 50px;
+  }
+}
+@media (max-width: 300px) {
+  .pesquisa input {
+    width: 15px;
+  }
+}
+
+.btn img {
+  height: 20px;
+}
+
+.light-color a {
+  color: #ffff7a;
+}
+
+#a {
+  color: #ffff7a;
+}
+#a:hover {
+  background-color: #ffff7a;
+  color: #202020;
+}
+
+.dropdown-menu .menu-dropdown {
+  color: #ffff7a;
+}
+
+.btn-custom {
+  background-color: #ffff7a;
+}
+
+main {
+  min-height: 100vh;
+}
+@media (max-width: 768px) {
+  main {
+    min-height: 80vh;
+    margin-bottom: 3vh;
+  }
+}
+
+.paragrafo {
+  padding: 50px 150px;
+  text-align: start;
+}
+@media (max-width: 768px) {
+  .paragrafo {
+    padding: 30px 15px;
+  }
+}
+@media (max-width: 425px) {
+  .paragrafo {
+    padding: 20px 15px;
+  }
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  border-bottom: 2px solid #ffff7a;
+  background-image: url(/Roadmap.wiki/home/img/bg-roadmap.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner h1 {
+  color: #202020;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 84px;
+  padding-top: 10vw;
+}
+
+@media (max-width: 768px) {
+  .banner h1 {
+    font-size: 56px;
+  }
+}
+.image-banner1 {
+  position: absolute;
+  left: 44vw;
+  bottom: 0;
+}
+.image-banner1 img {
+  height: 80vh;
+}
+
+.image-banner2 {
+  position: absolute;
+  right: 45vw;
+  top: 53vh;
+}
+.image-banner2 img {
+  height: 50vh;
+}
+
+.image-banner3 {
+  position: absolute;
+  right: 17vw;
+  bottom: 0;
+}
+.image-banner3 img {
+  height: 30vh;
+}
+
+.image-banner4 {
+  position: absolute;
+  right: 76vw;
+  bottom: 0vh;
+}
+.image-banner4 img {
+  height: 80vh;
+}
+
+.h1 h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 5vw;
+  color: #202020;
+  margin-bottom: 5vh;
+}
+
+.card {
+  width: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  bottom: 5vh;
+  margin-top: 1vh;
+}
+@media (max-width: 768px) {
+  .card {
+    width: 95%;
+  }
+}
+
+.cursos {
+  gap: 2vw;
+  margin-bottom: 4vh;
+  position: relative;
+}
+@media (max-width: 768px) {
+  .cursos {
+    margin: auto;
+    padding: 0;
+  }
+}
+
+.classe-area {
+  text-align: center;
+  display: block;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 80%;
+  text-decoration: none;
+  color: #202020;
+  margin-bottom: 5vh;
+}
+.classe-area:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.classe-area a {
+  text-decoration: none;
+  color: #202020;
+}
+.classe-area a:hover {
+  color: #ffff7a;
+}
+
+.conteudo {
+  background-image: linear-gradient(45deg, #202020 30%, #565656 80%);
+}
+.conteudo img:hover {
+  transform: scale(1.2);
+  transition: 0.7s;
+}
+.conteudo .area a {
+  font-size: 14px;
+}
+
+.image {
+  height: 250px;
+  align-items: center;
+}
+
+.area {
+  position: absolute;
+  padding-left: 25px;
+  padding-top: 3vh;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 30%;
+  top: 0vh;
+  color: #ffff7a;
+}
+
+.profissao {
+  position: absolute;
+  padding-left: 25px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3vh;
+  bottom: 0.5vh;
+  color: #f3f3f3;
+  text-shadow: 2px 2px #202020;
+  /* @media (max-width: 768px) {
+   width: 100%;
+   text-align: center;    
+   }*/
+}
+
+/*Page Login*/
+.formulario {
+  width: 300px;
+  border: 1px solid #ffff7a;
+  background-image: linear-gradient(45deg, #202020 30%, #565656 80%);
+  border-radius: 10px;
+  margin: 8vh auto;
+  padding: 20px;
+  bottom: 30%;
+  font-family: "Bebas Neue", sans-serif;
+  color: #ffff7a;
+}
+
+h1 {
+  text-align: center;
+}
+
+.formulario .login {
+  display: flex;
+  justify-content: center;
+}
+.formulario .login input {
+  width: 250px;
+}
+
+.botao button {
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+  text-decoration: none;
+  color: #f3f3f3;
+  background-color: #202020;
+}
+
+.botao a {
+  color: #f3f3f3;
+  display: block;
+}
+.botao a:hover {
+  color: #202020;
+}
+
+.esqueci a {
+  display: block;
+  font-size: 12px;
+  text-decoration: none;
+  color: #f3f3f3;
+  text-align: center;
+}
+.esqueci a:hover {
+  color: #ffff7a;
+}
+
+.voltar {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+
+#ou {
+  text-align: center;
+  color: #f3f3f3;
+}
+
+.botao-nome input {
+  display: flex;
+  width: 115px;
+  margin: 0 10px;
+}
+
+.titulo {
+  padding: 5vh 0;
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  font-size: 84px;
+}
+@media (max-width: 768px) {
+  .titulo {
+    padding: 2vh 1vw;
+    font-size: 64px;
+  }
+}
+
+.subtitulo {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 45px;
+  text-align: center;
+}
+
+.comentario-div {
+  font-style: italic;
+  text-align: center;
+  color: #f3f3f3;
+  background-image: linear-gradient(75deg, #202020 50%, #565656 70%);
+  border-radius: 10px;
+  border: 2px solid #ffff7a;
+  margin: auto 100px;
+  width: 90vw;
+}
+@media (max-width: 768px) {
+  .comentario-div {
+    display: block;
+    font-size: 10px;
+    padding-top: 2vh;
+    margin: 0 auto;
+  }
+}
+.comentario-div h4 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.paragrafo {
+  font-family: "Nanum Gothic", sans-serif;
+}
+.paragrafo a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.paragrafo2 {
+  font-family: "Nanum Gothic", sans-serif;
+  text-align: center;
+  margin-bottom: 7vh;
+}
+.paragrafo2 a {
+  font-size: 14px;
+  color: #202020;
+}
+.paragrafo2 a:hover {
+  color: #ffff7a;
+}
+
+.titulo-paragrafo {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 36px;
+}
+.titulo-paragrafo a {
+  color: #202020;
+}
+.titulo-paragrafo a:hover {
+  color: #ffff7a;
+}
+
+/*Estilo para página para cada carreira*/
+.carreira h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 60px;
+  padding: 5vh;
+}
+
+footer {
+  height: auto;
+}
+
+.list {
+  border-top: 2px solid #ffff7a;
+  background-color: #202020;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 3vh;
+  font-family: "Nanum Gothic", sans-serif;
+  color: #f3f3f3;
+  font-size: 15px;
+  height: 100px;
+  margin-bottom: 0;
+}
+@media (max-width: 968px) {
+  .list {
+    line-height: 5vh;
+    display: block;
+    height: auto;
+    text-align: center;
+  }
+}
+
+.sub-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 2vw;
+  bottom: 5vh;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .sub-list {
+    gap: 7vw;
+  }
+}
+.sub-list img {
+  height: 30px;
+  flex-wrap: wrap;
+}
+
+.tipos-cursos {
+  background-image: linear-gradient(45deg, #202020 30%, #565656 80%);
+  color: #f3f3f3;
+  border: 2px solid #ffff7a;
+}
+.tipos-cursos .card-header {
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  font-size: 28px;
+}
+
+.dados {
+  text-decoration: none;
+}
+.dados span {
+  font-size: 22px;
+}
+.dados .inscricoes {
+  text-align: center;
+}
+.dados .card-title {
+  color: #202020;
+  background-color: #ffff7a;
+  border-radius: 5px;
+}
+.dados .card-text {
+  color: #f3f3f3;
+  font-family: "Bebas Neue", sans-serif;
+}
+.dados .card-text a {
+  color: #f3f3f3;
+}
+.dados .card-text a:hover {
+  color: #ffff7a;
+}
+
+.card-textplus a {
+  color: #ffff7a;
+}
+
+.titulo-cubo {
+  color: #202020;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 48px;
+}
+
+.subtitulo-cubo {
+  font-family: "Bebas Neue", sans-serif;
+  color: #f3f3f3;
+  font-size: 24px;
+}
+
+.card-cubo {
+  background-image: linear-gradient(45deg, #202020 40%, #565656 70%, #202020 80%);
+  border: 2px solid #ffff7a;
+  color: #f3f3f3;
+  border-radius: 15px;
+}
+@media (max-width: 768px) {
+  .card-cubo {
+    width: 95%;
+    margin: 5px 0;
+  }
+}
+.card-cubo h1 {
+  font-family: "Bebas Neue", sans-serif;
+}
+.card-cubo #obs {
+  color: #ffff7a;
+}
+.card-cubo p {
+  font-family: "Bebas Neue", sans-serif;
+}
+.card-cubo label {
+  background-color: #ffff7a;
+  color: #202020;
+  border-radius: 5px;
+  height: 22px;
+}
+@media (max-width: 768px) {
+  .card-cubo label {
+    width: 100%;
+  }
+}
+
+.link-prova a {
+  color: #f3f3f3;
+}
+.link-prova a:hover {
+  color: #ffff7a;
+}
+
+.link-provabg a {
+  color: #202020;
+}
+.link-provabg a:hover {
+  color: #ffff7a;
+}
+
+.cubo input {
+  border-radius: 7px;
+  border: 2px solid #ffff7a;
+  height: 75px;
+}
+
+.tempo {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 48px;
+}
+
+.linha-tempo button {
+  border: none;
+  text-decoration: none;
+}
+.linha-tempo .avatar-study {
+  height: 75px;
+}
+.linha-tempo .linedown {
+  width: 150px;
+  padding-top: 75px;
+}
+.linha-tempo .arrow {
+  height: 75px;
+  margin: 3vh 0;
+}
+.linha-tempo .interticio {
+  background-color: #ffff7a;
+  border-radius: 7px;
+  margin-top: 10px;
+}
+
+.interticio-mobile {
+  background-color: #ffff7a;
+  border-radius: 7px;
+  margin-top: 10px;
+  width: 65px;
+  margin: 0 auto;
+}
+
+.avatar {
+  height: 60px;
+}
+
+.avatar-study {
+  height: 80px;
+}
+
+.ambiente .text-ambiente {
+  line-height: 50px;
+}
+.ambiente .patente {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 22px;
+}
+
+hr {
+  color: #202020;
+  margin: 0 10vw;
+}
+
+.display-mobile {
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 768px) {
+  .display-mobile {
+    display: block;
+    text-align: start;
+  }
+}
+
+.recomendacoes a {
+  color: #ffff7a;
+}/*# sourceMappingURL=style.css.map */

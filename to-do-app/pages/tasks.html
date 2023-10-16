@@ -1,0 +1,125 @@
+	<!DOCTYPE html>
+	<html lang="pt-br">
+
+
+	<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- ----------------------------- estilos CSS ----------------------------- -->
+	<link rel="stylesheet" href="../styles/tasks.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	<!-- ------------------- Biblioteca de icones - Fontawesome -------------------- -->
+	<script src="https://kit.fontawesome.com/db82221095.js" crossorigin="anonymous" defer></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- --------------------- animate.css ------------------------------------- -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+	<!-- ----------------------------- sweet alert ----------------------------- -->
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<!-- CDN example (unpkg) -->
+	<script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+	<link rel="shortcut icon" href="../assets/check-mark.png" type="image/x-icon">
+	<title>To-Do List | Tasks</title>
+	</head>
+
+	<body>
+	<header>
+		<nav>
+		<a href="#">Tarefas</a>
+		</nav>
+
+		<div class="user-info">
+		<p role="user-name" id="userName"></p>
+		<div class="user-image"></div>
+		<p id="closeApp">Sair</i>
+		</p>
+		</div>
+	</header>
+
+
+	<form class="new-task">
+		<div class="not-done"></div>
+		<div class="new-task-input">
+		<input id="newTask" type="text" placeholder="Nova tarefa" minlength="4" required>
+		<small id="inputTaskAlert">O nome da tarefa precisa ter pelo menos 4 carateres</small>
+		</div>
+		<button id="createTaskButton" type="submit">
+		<img src="../assets/plus.png" alt="Adicionar uma nova tarefa">
+		</button>
+	</form>
+
+	<h2 class="title-tasks">Tarefas Pendentes</h2>
+	<ul class="pending-tasks" id="pendingTasks">
+		<div>
+		<div id="skeleton">
+		<li class="task">
+			<div class="not-done"></div>
+			<div class="description">
+			<p class="name">Nova tarefa</p>
+			<p class="timestamp">Criada em: 15/07/21</p>
+			</div>
+		</li>
+		<li class="task">
+			<div class="not-done"></div>
+			<div class="description">
+			<p class="name">Nova tarefa</p>
+			<p class="timestamp">Criada em: 15/07/21</p>
+			</div>
+		</li>
+		<li class="task">
+			<div class="not-done"></div>
+			<div class="description">
+			<p class="name">Nova tarefa</p>
+			<p class="timestamp">Criada em: 15/07/21</p>
+			</div>
+		</li>
+
+		</div>
+	</ul>
+
+	<h2 class="title-tasks">Tarefas Terminadas</h2>
+	<ul class="finished-tasks" id="finishedTasks">
+
+		<div id="skeleton">
+		<li class="task">
+			<div class="not-done"></div>
+			<div class="description">
+			<p class="name">Nova tarefa</p>
+			<p class="timestamp">Criada em: 15/07/21</p>
+			</div>
+		</li>
+		<li class="task">
+			<div class="not-done"></div>
+			<div class="description">
+			<p class="name">Nova tarefa</p>
+			<p class="timestamp">Criada em: 15/07/21</p>
+			</div>
+		</li>
+		<li class="task">
+			<div class="not-done"></div>
+			<div class="description">
+			<p class="name">Nova tarefa</p>
+			<p class="timestamp">Criada em: 15/07/21</p>
+			</div>
+		</li>
+
+		</div>
+
+	</ul>
+
+		<!------------------------ Logica aplicada na tarefa ------------------------------>
+
+		<script src="../scripts/auth.js" type="module"></script>
+		<script src="../scripts/tasks.js" type="module"></script>
+
+	</body>
+
+	</html>

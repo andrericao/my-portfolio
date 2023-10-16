@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Construtor de Sonhos</title>
+      <link rel="icon" type="image/png" sizes="16x16"  href="../images/favicon-16x16.png">
+      <link href="../style/style3.css" rel="stylesheet" type="text/css" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 		integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  </head>
+    
+  <body>
+
+      <a onclick="topFun()" href="#"><i class="bi bi-caret-up-fill icon_to_top"></i></a>
+
+      <div class="header" id="header">
+        <button class="header_menu_hamburguer" onclick="toggleSideBar()">
+          <i class="bi bi-list menu_boots"></i>
+        </button>
+        <div class="header_logo">
+          <h1 class="logo_header">Construtor de Sonhos</h1>
+        </div>
+          <div class="header_navigation" id="header_navigation">
+            <button class="header_menu_hamburguer" onclick="toggleSideBar()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+              </svg>
+            </button>
+            <a class="header_list" href="#sobre_mim_p" tabindex="0" onclick="closeSideBar()">Sobre Mim</a>
+            <a class="header_list" href="#servicos_section" tabindex="0" onclick="closeSideBar()">Serviços</a>
+            <a class="header_list" href="#habilidades_section"  tabindex="0" onclick="closeSideBar()">Habilidades</a>
+            <a class="header_list" href="#footer" tabindex="0" onclick="closeSideBar()">Contatos</a>
+            <a class="button_edit" id="edit_header" onclick="abrirModalHeader(), closeSideBar()"><i class="bi bi-pencil-fill edit_header"></i></a>
+        </div>
+      </div> 
+
+
+      
+    <main tabindex="0" onclick="closeSideBar()" id="body_content">
+      
+      <div class="bannerChild">
+        <h1>Construindo sonhos <i onclick="abrirModalBanner()" id="edit_banner" class="bi bi-pencil-fill edit_banner"></i></h1>
+        <p>Bem vindo ao meu portfólio</p>
+        <div class='botao'>
+          <a class="" href="https://wa.me/5521971905018">Orçamento</a>
+        </div>
+        <!--<i class="bi bi-pencil-fill edit_banner"></i>-->
+      </div>
+    </main>    
+    <section id="sobremim" class="sobremim" tabindex="0" onclick="closeSideBar()">
+        <div class="imagem">
+          <img src="../images/construtor.png">
+        </div>
+        <div class="paragrafo">
+          <div class="paragrafo_chil">
+          <h2 id="sobre_mim">Sobre Mim</h2><br>
+          <p id="sobre_mim_p" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Id voluptate explicabo modi perferendis blanditiis a error quidem distinctio nihil temporibus? Atque obcaecati Lorem ipsum dolor sit amet consectetur adipisicing elit. Id voluptate explicabo modi perferendis blanditiis a error quidem distinctio nihil temporibus? Atque obcaecati</p><hr>
+          </div>
+          <div class="paragrafo_colunas">
+          <div class="container">
+            <div class="progress-bar">
+              <p><i>_</i><b>Nome:</b> Nome  Do  Candango <i>__</i></p>
+            </div>
+        </div>
+        <div class="container">
+          <div class="progress-bar">
+            <p><i>_</i><b>Experiências:</b> há X anos na construção civil <i>__</i></p>
+          </div>
+      </div>
+        <div class="container">
+          <div class="progress-bar">
+            <p><i>_</i><b>Nascimento:</b> DD / MM / YYYY<i>__</i></p>
+          </div>
+        </div>
+          </div>
+        </div>
+        
+      </section>
+      
+      <section id="servicos_section" class="descricao_contents" tabindex="0" onclick="closeSideBar()">
+        <div class="enunciados">
+        <h2 id="servicos">Serviços Realizados</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut expedita ad deleniti distinctio, impedit doloremque suscipit obcaecati. Quae asperiores quasi</p>
+        </div>
+        <div id="servicos_img_1" class="enunciados_child">
+          <div>
+            <img class="servicos_image small_img" src="../images/images-2020-10-30T112216.297.webp"> 
+            <h6>Descrição</h6>
+          </div>
+          <div>
+              <img class="servicos_image small_img" src="../images/servico_predio.jpg">
+              <h6>Descrição</h6>
+          </div>
+          <div>
+              <img class="servicos_image small_img" src="../images/espaco_gourmet.webp">
+            <h6>Descrição</h6>
+          </div>
+        </div>
+      </section>
+
+      <section id="habilidades_section" class="descricao_contents" tabindex="0" onclick="closeSideBar()">
+        <div class="enunciados">
+        <h2 id="habilidades">Habilidades</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut expedita ad deleniti distinctio, impedit doloremque suscipit obcaecati. Quae asperiores quasi</p>
+        </div>
+        <div class="enunciados_child">
+          <div class="habil_text">
+            <img class="habilidades_image" src="../images/habilidades_2b.png"> 
+            <h6><b>Impermeabilização</b></h6>
+              <br>Lages
+              <br>Piscinas
+              <br>Caixas D'água</p>
+          </div>
+            <div class="habil_text">
+            <img class="habilidades_image" src="../images/habilidades_3b.png"> 
+            <h6><b>Impermeabilização</b></h6>
+              <br>Lages
+              <br>Piscinas
+              <br>Caixas D'água</p>
+          </div>
+          <div class="habil_text">
+            <img class="habilidades_image" src="../images/habilidades_1b.png"> 
+            <h6><b>Impermeabilização</b></h6>
+              <br>Lages
+              <br>Piscinas
+              <br>Caixas D'água</p>
+          </div>
+        </div>
+      </section>
+      <footer id="footer" class="contatos" id="contatos" tabindex="0" onclick="closeSideBar()">
+        <div>
+          <h2>Email</h2>
+          <p>contato@ahasistemas.com</p>
+        </div>
+        <div class="border1">
+          <h2>Telefone</h2>
+          <p>contato@ahasistemas.com</p>
+        </div>
+        <div class="border1">
+          <h2>Instagram</h2>
+          <p>@ahasistemas</p>
+        </div>
+      </footer>
+
+      <!--MODAL DO HEADER-->
+      <dialog id="dialog_header" class="dialog">
+        <form id="form_header" class="form_header" action="index2.php">
+          <fieldset>
+            <Legend><b>Dados do Cabeçalho</b></Legend>
+                  <br>
+                  <br>
+          <div class="div_form_header">
+              <div class="form_box_header">
+                <label for="nome_site" class="input_header_label">Nome do Site</label>
+                  <input type="text" name="nome_site" id="nome_site" class="input_header" required>
+              </div>
+              <div class="menus">
+                <div class="form_box_header">
+                  <label for="menu_1" class="input_header_label">Menu 1</label>
+                  <input type="text" name="menu_1" id="menu_1" class="input_header" required>
+                </div>
+                <div class="form_box_header">
+                  <label for="menu_2" class="input_header_label">Menu 2</label>
+                  <input type="text" name="menu_2" id="menu_2" class="input_header" required>
+                </div>
+                <div class="form_box_header">
+                  <label for="menu_3" class="input_header_label">Menu 3</label>
+                  <input type="text" name="menu_3" id="menu_3" class="input_header" required>
+                </div>
+                <div class="form_box_header">
+                  <label for="menu_4" class="input_header_label">Menu 4</label>
+                  <input type="text" name="menu_4" id="menu_4" class="input_header" required>
+                </div>
+            </div>
+          </div>
+        </fieldset>
+            <div class="botoes_dialog">
+                <button id="botao_fechar" class="botao_fechar">X</button>
+                <input class="botao_salvar" type="submit" value="Salvar">
+            </div>
+        </form>
+      </dialog>
+
+
+        <!--MODAL DO BANNER-->
+
+        <dialog id="dialog_banner" class="dialog">
+          <form id="form_banner" class="form_header" action="index2.php">
+            <fieldset>
+              <Legend><b>Dados do Banner</b></Legend>
+                    <br>
+                    <br>
+                
+                <div class="menus">
+
+                  <div class="form_box_header">
+                    <label for="titulo_banner" class="input_header_label">Titulo</label>
+                    <input type="text" name="titulo_banner" id="titulo_banner" class="input_header inputs_banner" required>
+                  </div>
+                  <div class="form_box_header">
+                    <label for="subtitulo_banner" class="input_header_label">Subtitulo</label>
+                    <input type="text" name="subtitulo_banner" id="subtitulo_banner" class="input_header inputs_banner" required>
+                  </div>
+                  <div class="form_box_header">
+                    <label for="botao_de_acao" class="input_header_label">Botão de Ação</label>
+                    <input type="text" name="botao_de_acao" id="botao_de_acao" class="input_header inputs_banner" required>
+                  </div>
+                  
+              </div>
+
+          </fieldset>
+          
+              <div class="botoes_dialog">
+                  <button id="botao_fechar_banner" class="botao_fechar">X</button>
+                  <input id="botao_salvar_banner" class="botao_salvar" type="submit" value="Salvar">
+              </div>
+
+          </form>
+        </dialog>
+
+      <!--MODAL DAS IMAGENS-->
+      <div class="my_modal" id="my_modal" tabindex="-1" onclick="focus,abrirModalImagem()">
+        <div class="modal_content">
+          <span id="bt_close" class="botao_fechar">X
+          </span>
+          <img src="../images/servico_predio.jpg" id="modal_img" alt="">
+        </div>
+      
+      </div>
+
+      <script src="../script/index.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  
+    </body>
+  
+  </html>   

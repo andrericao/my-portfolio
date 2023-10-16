@@ -1,0 +1,92 @@
+	<!DOCTYPE html>
+	<html lang="pt-br">
+
+	<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="./assets/check-mark.png" type="image/x-icon">
+	<title>To-Do List | Login</title>
+
+
+
+	<!-- ---------------- estilos compartilhados entre login e signup ---------------- -->
+	<link rel="stylesheet" href="./styles/acess.css">
+
+	<!-- --------------------- animate.css ------------------------------------- -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+
+		<!-- ----------------------------- sweet alert ----------------------------- -->
+		<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
+		<!-- CDN example (unpkg) -->
+		<script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+	
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+
+
+	</head>
+
+	<body>
+	<p class="home-projects"><a href="../index.html">HOME PROJECTS</a></p>
+	<main>
+	<div class="left">
+		<img src="./assets/pessoa-login.png" alt="">
+	</div>
+
+	<div class="right">
+
+		<form>
+
+		<div class="form-header">
+
+			<p>To-Do App</p>
+
+		</div>
+
+		<h1>Acessar</h1>
+
+		<div class="user-input" >
+
+			<label>
+			Email:
+			</label>
+			<input id="inputEmail" type="email" required>
+			<small>Preencha o email corretamente</small>
+		</div>
+
+		<div class="user-input" id="userPassword">
+			<label>
+			Senha:
+			<div>
+				<input  id="inputPassword" type="password" min="8" required>
+				<img 
+				class="eye-password-bt"
+				id="imgPassword" 
+				src="./assets/eye.svg" 
+				alt="icone olho">
+			</div>
+			</label>
+			<small>Preencha a senha corretamente</small>
+		</div>
+		
+			<small  id="loginError">Seu E-mail e/ou Senha estão incorretos. Verifique.</small>
+
+		<button id="btnLogin" type="submit" disabled>Acessar</button>
+
+		</form>
+
+		<div class="login">
+
+		<a href="./pages/signup.html">Não possui conta? Crie agora mesmo</a>
+
+		</div>
+		
+	</div>
+	</main>
+	<!-- ---------------------- lógica aplicada no login ----------------------- -->
+	<script src="./scripts/login.js" type="module"></script>
+
+	</body>
+
+	</html>

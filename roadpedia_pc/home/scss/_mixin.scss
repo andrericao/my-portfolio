@@ -1,0 +1,119 @@
+@import './variables';
+
+@mixin classe-area {
+  text-align: center;
+  display: block;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 80%;
+  text-decoration: none;
+  color: $corpadraoescura;
+  margin-bottom: 5vh;
+
+  &:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    }
+}
+
+@mixin link-area {
+  text-decoration: none;
+  color: $corpadraoescura;
+
+  &:hover {
+    color: $corpadraoamarela;
+  }
+}
+
+@mixin card {
+  width: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  bottom: 5vh;
+  margin-top: 1vh;
+}
+
+@mixin curso {
+  gap: 2vw;
+  margin-bottom: 4vh;
+  position: relative;
+}
+
+@mixin login-form {
+  width: 300px;
+  border: 1px solid $corpadraoamarela;
+  background-image: linear-gradient(45deg, $corpadraoescura 30%, #565656 80%);
+  border-radius: 10px;
+  margin: 8vh auto;
+  padding: 20px;
+  bottom: 30%;
+  font-family: 'Bebas Neue', sans-serif;
+  color: $corpadraoamarela;
+}
+
+@mixin login-login {
+  display: flex;
+  justify-content: center;
+
+  input{
+    width: 250px;
+  }
+}
+
+@mixin login-botao /*button*/ {
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+  text-decoration: none;
+  color: $corpadraobranca;
+  background-color: $corpadraoescura;
+}
+
+@mixin login-esqueci /*a*/ {
+  display: block;
+  font-size: 12px;
+  text-decoration: none;
+  color: $corpadraobranca;
+  text-align: center;
+}
+
+@mixin login-voltar {
+  display: block;
+  margin:0 auto;
+  width: 100px;
+}
+
+@mixin sobre-titulo {
+  padding: 5vh 0;
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: center;
+  font-size: 84px;
+}
+
+@mixin sobre-paragrafo {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+/*Estilo para página para cada carreira*/
+
+@mixin titulo-carreira {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 60px;
+  padding: 5vh;
+}
+
+//Subtitulo em minha hstória
+
+@mixin subtitulo {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 45px;
+  text-align: center;
+}
+
+@mixin comentario-div {
+  font-style: italic;
+  text-align: center;
+  color: $corpadraobranca;
+  background-image: linear-gradient(75deg, $corpadraoescura 50%, #565656 70%);
+  border-radius: 10px;
+  border: 2px solid $corpadraoamarela;
+}

@@ -1,0 +1,311 @@
+.projetos {
+  background-color: #ffff7a;
+}
+.projetos a {
+  color: #202020;
+}
+
+.navbar-brand {
+  color: #f3f3f3;
+}
+.navbar-brand:hover {
+  color: #ffff7a;
+}
+
+.nav-item a {
+  color: #ffff7a;
+}
+.nav-item a:hover {
+  background-color: #ffff7a;
+  color: #202020;
+}
+
+.pesquisa input {
+  border: 1px solid #ffff7a;
+}
+
+.light-color a {
+  color: #ffff7a;
+}
+
+#a {
+  color: #ffff7a;
+}
+#a:hover {
+  background-color: #ffff7a;
+  color: #202020;
+}
+
+.dropdown-menu .menu-dropdown {
+  color: #ffff7a;
+}
+
+.btn-custom {
+  background-color: #ffff7a;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background-image: url(/roadpedia_cell/img/bg/bg-roadmap.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 2px solid #ffff7a;
+}
+.banner h1 {
+  color: #202020;
+}
+
+.image-banner1 {
+  position: absolute;
+  left: 44vw;
+  bottom: 0;
+}
+.image-banner1 img {
+  height: 80vh;
+}
+
+.image-banner2 {
+  position: absolute;
+  right: 45vw;
+  top: 53vh;
+}
+.image-banner2 img {
+  height: 50vh;
+}
+
+.image-banner3 {
+  position: absolute;
+  right: 17vw;
+  bottom: 0;
+}
+.image-banner3 img {
+  height: 30vh;
+}
+
+.image-banner4 {
+  position: absolute;
+  right: 76vw;
+  bottom: 0vh;
+}
+.image-banner4 img {
+  height: 80vh;
+}
+
+.h1 h2 {
+  color: #202020;
+}
+
+.conteudo {
+  background-image: linear-gradient(45deg, #202020 30%, #565656 80%);
+}
+
+.classe-area {
+  color: #202020;
+}
+.classe-area:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.classe-area a {
+  text-decoration: none;
+  color: #202020;
+}
+.classe-area a:hover {
+  color: #ffff7a;
+}
+
+.area {
+  color: #ffff7a;
+}
+
+.titulo-profissao {
+  color: #f3f3f3;
+}
+
+.botao a {
+  color: #f3f3f3;
+}
+.botao a:hover {
+  color: #202020;
+}
+
+.esqueci a:hover {
+  color: #ffff7a;
+}
+
+#ou {
+  color: #f3f3f3;
+}
+
+.paragrafo2 a {
+  color: #202020;
+}
+.paragrafo2 a:hover {
+  color: #ffff7a;
+}
+
+.titulo-paragrafo a {
+  color: #202020;
+}
+.titulo-paragrafo a:hover {
+  color: #ffff7a;
+}
+
+.list {
+  border-top: 2px solid #ffff7a;
+  background-color: #202020;
+  color: #f3f3f3;
+}
+
+.tipos-cursos {
+  background-image: linear-gradient(45deg, #202020 30%, #565656 80%);
+  color: #f3f3f3;
+  border: 2px solid #ffff7a;
+}
+
+.card-title {
+  color: #202020;
+  background-color: #ffff7a;
+}
+
+.card-text {
+  color: #f3f3f3;
+}
+.card-text a {
+  color: #f3f3f3;
+}
+.card-text a:hover {
+  color: #ffff7a;
+}
+
+.card-input-date {
+  background-color: inherit;
+  color: #f3f3f3;
+}
+
+.card-textplus a {
+  color: #ffff7a;
+}
+
+.titulo-cubo {
+  color: #202020;
+}
+
+.subtitulo-cubo {
+  color: #f3f3f3;
+}
+
+.subtitulo-recomendacao {
+  color: #202020;
+}
+
+.card-cubo {
+  background-image: linear-gradient(45deg, #202020 40%, #565656 70%, #202020 80%);
+  border: 2px solid #ffff7a;
+  color: #f3f3f3;
+}
+
+.card-cubo #obs {
+  color: #ffff7a;
+}
+.card-cubo label {
+  background-color: #ffff7a;
+  color: #202020;
+}
+
+.link-prova a {
+  color: #f3f3f3;
+}
+.link-prova a:hover {
+  color: #ffff7a;
+}
+
+.link-provabg a {
+  color: #202020;
+}
+.link-provabg a:hover {
+  color: #ffff7a;
+}
+
+.cubo input {
+  border: 2px solid #ffff7a;
+}
+
+.formulario {
+  border: 1px solid #ffff7a;
+  background-image: linear-gradient(45deg, #202020 30%, #565656 80%);
+  color: #ffff7a;
+}
+
+.botao button {
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+  text-decoration: none;
+  color: #f3f3f3;
+  background-color: #202020;
+}
+
+.interticio {
+  background-color: #ffff7a;
+}
+
+.interticio-mobile {
+  background-color: #ffff7a;
+}
+
+hr {
+  color: #202020;
+}
+
+.recomendacoes a {
+  color: #ffff7a;
+}
+
+.esqueci a {
+  color: #f3f3f3;
+}
+
+.comentario-div {
+  color: #f3f3f3;
+  background-image: linear-gradient(75deg, #202020 50%, #565656 70%);
+  border: 2px solid #ffff7a;
+}
+
+.sub-list img {
+  height: 30px;
+  flex-wrap: wrap;
+}
+
+.linha-tempo .avatar-study {
+  height: 75px;
+}
+.linha-tempo .linedown {
+  width: 150px;
+  padding-top: 75px;
+}
+.linha-tempo .arrow {
+  height: 75px;
+  margin: 3vh 0;
+}
+.linha-tempo .interticio {
+  border-radius: 7px;
+  margin-top: 10px;
+}
+
+.interticio-mobile {
+  border-radius: 7px;
+  margin-top: 10px;
+  width: 65px;
+  margin: 0 auto;
+}
+
+.avatar {
+  height: 60px;
+}
+
+.avatar-study {
+  height: 80px;
+}/*# sourceMappingURL=default.css.map */
